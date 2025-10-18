@@ -1,6 +1,5 @@
 {
   "name": "bridal-studio",
-  "homepage": "https://kalaiselvan37.github.io/srivani-bridal-studio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist -f"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.3.1",
