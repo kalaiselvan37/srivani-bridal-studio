@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+@import "../node_modules/@flaticon/flaticon-uicons/css/all/all.css";
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: cormorantgaramond;
+    src: url("../fonts/cormorant-garamond/CormorantGaramond-Regular.ttf");
+}
+
+@theme{
+    --font-cormorantgaramond: cormorantgaramond, "sans-seriff";
+}
+
+.eagle-lake {
+  font-family: "Eagle Lake", serif;
+}
+
+.niconne {
+  font-family: "Niconne", cursive;
+}
